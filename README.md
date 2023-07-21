@@ -9,6 +9,7 @@ https://train-res-api-huseyinsari.onrender.com/api/check_reservation
 
 Örnek
 input:
+```json
 {
   "Tren": {
     "Ad": "Başkent Ekspres",
@@ -22,7 +23,9 @@ input:
   "RezervasyonYapilacakKisiSayisi": 5,
   "KisilerFarkliVagonlaraYerlestirilebilir": false
 }
+```
 output:
+```json
 {
     "RezervasyonYapilabilir": true,
     "YerlesimAyrinti": [
@@ -32,3 +35,4 @@ output:
         }
     ]
 }
+```
